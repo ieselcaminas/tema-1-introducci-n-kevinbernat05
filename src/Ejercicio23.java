@@ -14,7 +14,7 @@ public class Ejercicio23 {
             }
         }while (x != 0);
 
-        System.out.println("Tienes " + contador + " numeros positivos.");
+        System.out.println("Tiene " + contador + " numeros positivos.");
 
     }
 }
