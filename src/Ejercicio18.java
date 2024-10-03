@@ -11,13 +11,13 @@ public interface Ejercicio18 {
         System.out.println("Ingrese el valor de x: ");
         x = sc.nextInt();
 
-        for (int i = 0; i <= 10; i += 2) {
+        for (int i = 0; i <= 8; i += 2) {
             if (x % 2 == 0) {
-                resultado = x + i;
+                resultado = x + i + 2;
                 System.out.print(resultado + " ");
             }else{
                 resultado  = (x + 1) + i;
-                System.out.print(resultado + " ");
+                System.out.print(resultado  + " ");
             }
 
             }
