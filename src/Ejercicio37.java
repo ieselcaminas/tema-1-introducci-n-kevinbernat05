@@ -15,7 +15,6 @@ public class Ejercicio37 {
         System.out.println("Introduce binario: ");
         String binario = sc.nextLine();
 
-
         for (int i = 0; i < binario.length();i++ ) {
             int bit = binario.charAt(binario.length() - 1 - i) - '0';
 
