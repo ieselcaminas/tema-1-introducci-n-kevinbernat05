@@ -16,7 +16,7 @@ public class esDivisible {
         if (esDivisible(n, m)) {
             System.out.println("Tu numero es divisible.");
         } else {
-            System.out.println("Tu numero no es divisible.");
+            System.out.println("Tu numeró no es divisible.");
         }
     }
 }
